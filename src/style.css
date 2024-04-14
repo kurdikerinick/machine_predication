@@ -1,0 +1,73 @@
+.registration-container {
+    width: 450px; /* Adjust the width as needed */
+    margin: 0 auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+
+  }
+  
+  .registration-container h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333333;
+  }
+  
+  .registration-container form {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .registration-container label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555555;
+  }
+  
+  .registration-container input,
+  .registration-container select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+  }
+  
+  .registration-container select {
+    appearance: none;
+  }
+  
+  .register-button {
+    background-color: #a29bfe; /* Attractive pastel color */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-button:hover {
+    background-color: #7f81c0; /* Slightly darker shade on hover */
+  }
+  
+  .registration-container .image-preview {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .registration-container .image-preview img {
+    max-width: 100%;
+    max-height: 200px;
+  }
+  body {
+background-color: #96B6C5; /* Light background color */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh; /* Slightly reduced height */
+  }
+  
+  
